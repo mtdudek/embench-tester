@@ -1,0 +1,42 @@
+Platform
+********
+=========  ========================================
+Core       Core sha1
+=========  ========================================
+vexriscv   654057b2f5cec0f9fc99487dff67861f76fcbe7e
+picorv32   88974894c800ee2e827db47865e0611a07ff40d7
+minerva    4731142284cf87e89b21fb35ceff1139f2f89227
+cv32e40p   8a8202f13615d54d520bddb3a347ec2e166b1e02
+lm32       48333804e40c7c9c1c8d5b2e70ba75f4b646d8f0
+mor1kx     af561171f5fc8c684537897f12ef0f429e38624b
+microwatt  ba76652320e9dc23d9b2c64a62d0a752c870a215
+=========  ========================================
+
+Used tools
+**********
+Toolchains:
+###########
+:OpenPOWER:
+	powerpc64le-linux-gnu-gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0 
+
+:OpenRISC:
+	or1k-elf-gcc (GCC) 4.9.3 
+
+:LM32:
+	lm32-elf-gcc (GCC) 4.9.3 
+
+:RISC-V:
+	riscv64-unknown-elf-gcc (SiFive GCC 8.3.0-2019.08.0) 8.3.0 
+
+
+Other tools:
+############
+:verilator:
+	Verilator 4.100 2020-09-07 rev v4.100-10-g39eea781 
+
+:yosys:
+	Yosys 0.9+3586 (git sha1 cd8b2ed4, gcc 7.5.0-3ubuntu1~18.04 -fPIC -Os) 
+
+:ghdl:
+	GHDL 1.0-dev (v0.37.0-1031-ga31ba343) [Dunoon edition]  Compiled with GNAT Version: 8.4.0  mcode code generator Written by Tristan Gingold.  
+
